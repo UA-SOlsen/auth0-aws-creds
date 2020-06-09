@@ -1,0 +1,9 @@
+#!/usr/bin/env python3
+
+from auth0_aws_creds.main import Auth0
+
+if __name__ == '__main__':
+    try:
+        Auth0AWSCreds().run()
+    except KeyboardInterrupt:
+        pass
